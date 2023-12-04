@@ -1,0 +1,92 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(125deg, #49de6e, #198f37, #034a15);
+}
+
+.Main {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+/* .navBar > * { */
+/* background-color: purple; */
+/* display: flex; */
+/* flex-basis: 1px; */
+/* } */
+
+.Navigation {
+  background-color: purple;
+  flex-direction: column;
+  text-decoration: none;
+  /* display: flex;
+  flex: 1; */
+}
+
+.content {
+  font-family: sans-serif;
+  /* text-align: center; */
+  /* display: flex; */
+  flex-direction: column;
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  display: flex;
+}
+.navigation ul li {
+  margin-top: 0.5em; /* grossit l'espacement */
+  margin-left: -2em; /* grossit l'espacement */
+  margin-right: 2em; /* grossit l'espacement */
+  padding: 1.2em; /* grossit l'élément */
+  flex: 1;
+  font-size: 1.2em;
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+  background-color: purple;
+  text-align: center;
+}
+
+title {
+  background-color: purple;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.Logo {
+  margin-left: 0.5em;
+}
+
+.projet {
+  justify-content: space-between;
+  display: flex;
+}
+
+.navBarProj {
+  display: flex;
+  margin-left: 2em; /* grossit l'espacement */
+}
+
+.navBarProj div li {
+  color: white;
+  margin-top: 0.5em; /* grossit l'espacement */
+  margin-right: 0.5em; /* grossit l'espacement */
+  margin-bottom: 1em; /* grossit l'espacement */
+  padding: 1.2em; /* grossit l'élément */
+  background-color: purple;
+}
+
+.projet ul {
+  font-size: 1.2em;
+}
+.Content p {
+  font-size: 1.2em;
+}
